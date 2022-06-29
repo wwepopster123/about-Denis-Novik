@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: #000;
+    font-size: 16px;
+    margin: 0.3em 20%;
+}
+
+body * {
+    text-decoration: none;
+}
+
+span {
+    margin: 0%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 9px 0;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    margin: 0.6em 0;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+footer {
+    margin-top: -170px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+.center__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center__content a {
+    margin: 0.5em 5%;
+    height: auto;
+}
+
+.main_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main_name {
+    font-size: 47px;
+    line-height: 58px;
+}
+
+.main_special {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.main_language {
+    right: 0%;
+    font-size: 16px;
+    line-height: 18px;
+    transform: translateY(-1em) rotate(-90deg);
+}
+
+.stretch__image {
+    width: 100%;
+    margin: 2em 0;
+}
+
+.about__me {
+    display: block;
+    align-content: center;
+}
+
+.skills__program {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__program p {
+    font-size: 14px;
+}
+
+.skills .title {
+    margin-bottom: 70px;
+}
+
+.skills .about {
+    margin-bottom: 80px;
+}
+
+.title {
+    margin-bottom: 18px;
+}
+
+.about {
+    margin-bottom: 30px;
+}
+
+.contact {
+    margin: 3em 2em;
+}
+
+.simple__button {
+    color:#828282;
+    transition: all 0.5s ease;
+}
+
+.simple__button:hover {
+    color: #070707;
+}
+
+.advanced__button {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 6px 28px;
+    background: black;
+    color: white;
+    border-radius: 2em;
+}
